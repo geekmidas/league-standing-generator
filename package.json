@@ -1,0 +1,34 @@
+{
+  "name": "league-standing-generator",
+  "version": "1.0.0",
+  "description": "League log generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "watch": "jest --watch --verbose",
+    "dev": "ts-node src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/geekmidas/league-standing-generator.git"
+  },
+  "keywords": [
+    "Typescript",
+    "Soccer"
+  ],
+  "author": "Lebogang Mabala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geekmidas/league-standing-generator/issues"
+  },
+  "homepage": "https://github.com/geekmidas/league-standing-generator#readme",
+  "devDependencies": {
+    "@types/jest": "~27.4.0",
+    "@types/node": "~17.0.10",
+    "jest": "~27.4.7",
+    "ts-jest": "~27.1.3",
+    "ts-node": "~10.4.0",
+    "tsconfig-paths": "~3.12.0",
+    "typescript": "~4.5.5"
+  }
+}
